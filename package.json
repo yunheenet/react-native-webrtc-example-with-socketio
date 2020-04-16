@@ -1,0 +1,47 @@
+{
+  "name": "FriendOfEarth",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.4",
+    "@react-native-community/async-storage": "^1.9.0",
+    "@react-native-community/hooks": "^2.4.9",
+    "@react-native-community/masked-view": "^0.1.8",
+    "@react-navigation/bottom-tabs": "^5.2.6",
+    "@react-navigation/compat": "^5.1.8",
+    "@react-navigation/native": "^5.1.5",
+    "@react-navigation/stack": "^5.2.10",
+    "apollo-boost": "^0.4.7",
+    "apollo-cache-inmemory": "^1.6.5",
+    "apollo-cache-persist": "^0.1.1",
+    "react": "16.11.0",
+    "react-native": "0.62.2",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-safe-area-context": "^0.7.3",
+    "react-native-screens": "^2.4.0",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-webrtc": "^1.75.3",
+    "socket.io-client": "^2.3.0",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.58.0",
+    "react-test-renderer": "16.11.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
